@@ -7,8 +7,8 @@
     <AssemblyName>DragDropBetweenDataGrids</AssemblyName>
     <RootNamespace>DragDropBetweenDataGrids</RootNamespace>
     <DefineConstants>NETCORE</DefineConstants>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  
 
   <ItemGroup>
     <Reference Include="Syncfusion.Core.WinForms">

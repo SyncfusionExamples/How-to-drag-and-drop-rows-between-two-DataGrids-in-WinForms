@@ -10,8 +10,8 @@ namespace DragDropBetweenDataGrids
         {
             // Create two collections with 10 records each and specific starting OrderIDs
             var repo = new OrderInfoRepository();
-            Collection1 = repo.GetListOrdersDetails(13, 1001);
-            Collection2 = repo.GetListOrdersDetails(13, 101);
+            Collection1 = repo.GetListOrdersDetails(10, 1001);
+            Collection2 = repo.GetListOrdersDetails(10, 101);
         }
 
         /// <summary>
