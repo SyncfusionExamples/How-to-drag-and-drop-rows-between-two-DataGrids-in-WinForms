@@ -15,6 +15,9 @@ namespace DragDropBetweenDataGrids
         {
             InitializeComponent();
 
+            // Set default selection to "Move" in the drop action ComboBox
+            this.comboBoxDropAction.SelectedIndex = 0; // "Move"
+
             // Bind sample order data to the grids
             OrderInfoCollection collection = new OrderInfoCollection();
             this.sfDataGrid1.DataSource = collection.Collection1;
