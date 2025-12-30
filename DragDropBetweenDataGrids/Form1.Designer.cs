@@ -61,6 +61,7 @@ namespace DragDropBetweenDataGrids
 
             this.headerPanel.Controls.Add(this.labelDropAction);
             this.headerPanel.Controls.Add(this.comboBoxDropAction);
+            this.headerPanel.Padding = new Padding(50,50,0,0);
 
             // --- Main table layout: 2 rows ---
             this.mainTable.Dock = DockStyle.Fill;
@@ -69,6 +70,7 @@ namespace DragDropBetweenDataGrids
             this.mainTable.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             this.mainTable.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             this.mainTable.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            this.mainTable.Padding = new Padding(40);
 
             // sfDataGrid1
             this.sfDataGrid1.AccessibleName = "Table";
