@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DragDropBetweenDataGrids</AssemblyName>
+    <RootNamespace>DragDropBetweenDataGrids</RootNamespace>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+	<ItemGroup Condition=" '$(TargetFramework)'=='net462' ">
+		    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Syncfusion.SfDataGrid.WinForms" Version="*" />
+	</ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Core.WinForms" />
+    <Reference Include="Syncfusion.SfDataGrid.WinForms" />
+    <Reference Include="Syncfusion.SfInput.WinForms" />
+    <Reference Include="Syncfusion.SfListView.WinForms" />
+    <Reference Include="Syncfusion.Data.WinForms" />
+    <Reference Include="Syncfusion.GridCommon.WinForms" />
+    <Reference Include="Syncfusion.Shared.Base" />
+    <Reference Include="Syncfusion.Licensing" />
+  </ItemGroup>
+	<Import Project="..\targets\MultiTargeting.targets" />
+</Project>
